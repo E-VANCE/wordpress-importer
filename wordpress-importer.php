@@ -3,9 +3,9 @@
 Plugin Name: WordPress Importer
 Plugin URI: https://wordpress.org/plugins/wordpress-importer/
 Description: Import posts, pages, comments, custom fields, categories, tags and more from a WordPress export file.
-Author: wordpressdotorg
+Author: wordpressdotorg, E-VANCE / Henning Orth
 Author URI: https://wordpress.org/
-Version: 0.6.4.2
+Version: 0.6.4.4
 Text Domain: wordpress-importer
 License: GPL version 2 or later - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 */
