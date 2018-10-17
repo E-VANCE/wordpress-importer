@@ -1021,7 +1021,7 @@ class WP_Import extends WP_Importer {
 
 		$filesize = filesize( $upload['file'] );
 
-		if ( isset( $headers['content-length'] ) && $filesize != $headers['content-length'] ) {
+		/* if ( isset( $headers['content-length'] ) && $filesize != $headers['content-length'] ) {
 			@unlink( $upload['file'] );
 			return new WP_Error( 'import_file_error', __('Remote file is incorrect size', 'wordpress-importer') );
 		}
@@ -1029,7 +1029,7 @@ class WP_Import extends WP_Importer {
 		if ( 0 == $filesize ) {
 			@unlink( $upload['file'] );
 			return new WP_Error( 'import_file_error', __('Zero size file downloaded', 'wordpress-importer') );
-		}
+		} */
 
 		$max_size = (int) $this->max_attachment_size();
 		if ( ! empty( $max_size ) && $filesize > $max_size ) {
