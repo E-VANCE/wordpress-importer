@@ -1,0 +1,9 @@
+{
+  "name": "E-VANCE/wordpress-importer",
+  "description": "Modified the official WordPress importer due to incompatibilities with the media import",
+  "homepage": "https://github.com/E-VANCE/wordpress-importer",
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=5.4"
+  }
+}
